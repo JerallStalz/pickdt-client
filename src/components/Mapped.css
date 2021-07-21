@@ -1,0 +1,13 @@
+.imagen {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 500px) {
+    .imagen {
+        width: 90vw;
+    }
+  }
